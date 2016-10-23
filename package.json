@@ -1,9 +1,13 @@
 {
   "name": "clock",
   "version": "1.0.0",
-  "description": "Simple analogue clock demo",
+  "description": "Simple JS analogue clock created just4fun",
   "main": "index.js",
   "author": "Aleksandr Shevchenko",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheff146/clock.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.8.1"
