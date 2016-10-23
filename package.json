@@ -1,0 +1,11 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Simple analogue clock demo",
+  "main": "index.js",
+  "author": "Aleksandr Shevchenko",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  }
+}

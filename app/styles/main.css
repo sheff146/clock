@@ -1,0 +1,39 @@
+.clock {
+    width: 400px;
+    height: 400px;
+    border: 1px #000000 solid;
+    border-radius: 100%;
+    position: relative;
+    margin: 100px auto 0 auto;
+}
+
+.clock-arrow {
+    position: absolute;
+}
+
+.clock-arrow__seconds {
+    background-color: #DC143C;
+    height: 220px;
+    top: 0;
+    width: 3px;
+    left: calc(50% - 1px);
+    transform-origin: 2px 199px;
+}
+
+.clock-arrow__minutes {
+    background-color: #555555;
+    height: 200px;
+    top: 20px;
+    width: 5px;
+    left: calc(50% - 2px);
+    transform-origin: 3px 179px;
+}
+
+.clock-arrow__hours {
+    background-color: #222222;
+    height: 180px;
+    top: 40px;
+    width: 7px;
+    left: calc(50% - 3px);
+    transform-origin: 4px 159px;
+}
